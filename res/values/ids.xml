@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="rg_main_tabs" />
+  <item type="id" name="rb_main_tab1" />
+  <item type="id" name="rb_main_tab2" />
+  <item type="id" name="rb_main_tab3" />
+</resources>

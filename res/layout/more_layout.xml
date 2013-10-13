@@ -1,0 +1,269 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/empty_cart_view" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#ffefebe7" >
+   <RelativeLayout 
+       android:id="@+id/top_relative" 
+       android:layout_width="fill_parent" 
+       android:layout_height="50.0dip" 
+       android:background="@drawable/main_tabs" >
+      <TextView 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_centerInParent="true" 
+          android:padding="10.0dip" 
+          android:singleLine="true" 
+          android:text="@string/main_rb_tab3"
+          android:textColor="@color/white" 
+          android:textSize="15sp" />
+   </RelativeLayout>
+   <ScrollView 
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content" 
+       android:layout_below="@+id/top_relative" 
+       android:fadingEdge="none"
+       android:scrollbars="none" >
+      <LinearLayout 
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content" 
+          android:gravity="center_vertical" 
+          android:orientation="vertical" 
+          android:paddingBottom="60.0dip" 
+          android:paddingLeft="10.0dip" 
+          android:paddingRight="10.0dip" 
+          android:paddingTop="10.0dip" >
+          <TextView 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10.0dip"
+              android:layout_marginTop="10.0dip"
+              android:gravity="center_vertical"
+              android:paddingLeft="4.0dip"
+              android:text="@string/share"
+              android:textColor="#ff888888"
+              android:textSize="16.0sp" />
+             <LinearLayout
+                    android:id="@+id/MorePageTableLayout_Follow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg"
+                    android:paddingLeft="1.0dip"
+                    android:shrinkColumns="0"
+                    android:stretchColumns="0"
+                    android:orientation="vertical" >
+                  <RelativeLayout
+                        android:id="@+id/more_page_row1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/share" android:drawablePadding="10.0dip" android:gravity="center_vertical" android:includeFontPadding="false" android:paddingLeft="17.0dip"
+                            android:text="@string/share_to_friends"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@drawable/arrow_ico" />
+                    </RelativeLayout>
+                    <View android:background="@drawable/shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                    <RelativeLayout
+                        android:id="@+id/more_page_row3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawableLeft="@drawable/high_opinion"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/high_prize"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@drawable/arrow_ico" />
+                    </RelativeLayout>
+                </LinearLayout>
+           
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="4.0dip"
+                android:text="@string/client"
+                android:textColor="#ff888888"
+                android:textSize="16.0sp" />
+
+            
+                <LinearLayout
+                    android:id="@+id/MorePageTableLayout_Client"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg"
+                    android:paddingLeft="1.0dip"
+                    android:layout_marginBottom="10dip"
+                    android:shrinkColumns="0"
+                    android:stretchColumns="0" 
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/more_page_row4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawableLeft="@drawable/setting"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/setting"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@drawable/arrow_ico" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                    android:background="@drawable/shape_bg">
+   
+                <RelativeLayout
+                    android:id="@+id/more_page_row5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2.0dip"
+                    android:layout_marginRight="2.0dip"
+                    android:paddingBottom="16.0dip"
+                    android:paddingTop="16.0dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawableLeft="@drawable/feedback"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/feedback"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@drawable/arrow_ico" />
+                    </RelativeLayout>
+                    <View android:background="@drawable/shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+
+                    <RelativeLayout
+                        android:id="@+id/more_page_row6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawableLeft="@drawable/update"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/update"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:src="@drawable/arrow_ico" />
+                    </RelativeLayout>
+                    <View android:background="@drawable/shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+
+                    <RelativeLayout
+                        android:id="@+id/more_page_row7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.0dip"
+                        android:layout_marginRight="2.0dip"
+                        android:paddingBottom="16.0dip"
+                        android:paddingTop="16.0dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawableLeft="@drawable/about"
+                            android:drawablePadding="10.0dip"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:paddingLeft="17.0dip"
+                            android:text="@string/about"
+                            android:textColor="#ff333333"
+                            android:textSize="16.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:paddingRight="20.0dip"
+                            android:layout_alignParentRight="true" 
+                            android:src="@drawable/arrow_ico" /> 
+                    </RelativeLayout>
+                </LinearLayout>
+           </LinearLayout>>
+        
+    </ScrollView>
+
+</RelativeLayout>
